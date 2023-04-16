@@ -2,7 +2,7 @@
 
 Dans cette activité ont va ajouter la possibilité de s'authentifier pour sécurisé notre application en utilisant spring security avec les deux stratégies : InMemoryAuthentication et JdbcAuthentication
 
-### Objectif de l'atelier : ###
+### Objectif de l'atelier ###
 
 • Récupérer le code source de l'application non sécurisé qui permet de gérer les patients (résultat de l'activité pratique N°3). Le code source de cette application se trouve dans le repository suivant : https://github.com/mohamedYoussfi/unsecured-hospital-app.git
 • Sécuriser cette application en intégrant un système d'authentification basé sur Spring security avec les trois stratégies : InMemoryAuthentication et JdbcAuthentication
