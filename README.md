@@ -17,9 +17,13 @@ Les fonctionnalités principales de Spring Security comprennent l'authentificati
 ### Configuration du projet ###
 
 Langue : Java
+
 Type : Maven
+
 JDK : Oracle OpenJDK version 20
+
 Java : 17
+
 Packaging : Jar
 
 ### Dépendances utilisées ###
