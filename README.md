@@ -24,11 +24,19 @@ Packaging : Jar
 ### Dépendances utilisées ###
 
 • thymeleaf : Un moteur de template pour les applications web Java qui permet de créer des pages HTML avec des fonctionnalités dynamiques et réutilisables.
+
 • lombok : Une bibliothèque Java qui permet de réduire la quantité de code boilerplate nécessaire pour écrire des classes.
+
 • Bootstrap : Une bibliothèque de composants d'interface utilisateur pour le développement de sites web et d'applications web.
+
 • H2database : Une base de données relationnelle qui offre des fonctionnalités avancées pour les développeurs tout en étant légère, rapide et facile à utiliser.
+
 • MySQL : Un système de gestion de base de données relationnelle utilisé par de nombreuses applications web, mobiles et d'entreprise.
+
 • Spring Web : un module de la plateforme Spring qui fournit des fonctionnalités pour le développement d'applications web, telles que la création de contrôleurs et la gestion des requêtes et des réponses HTTP.
+
 • spring boot starter security : Un module de démarrage de la plateforme Spring Boot qui fournit des fonctionnalités de sécurité pour les applications web, telles que l'authentification et l'autorisation des utilisateurs.
+
 • spring boot devtools : Il permet la détection et le rechargement automatique des modifications apportées au code source.
-• thymeleaf extras spring security 6 : Il permet d'utiliser les fonctionnalités de sécurité de Spring Security dans les templates Thymeleaf
+
+• thymeleaf extras spring security 6 : Il permet d'utiliser les fonctionnalités de sécurité de Spring Security dans les templates Thymeleaf.
