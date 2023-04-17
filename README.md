@@ -45,3 +45,40 @@ Packaging : Jar
 • spring boot devtools : Il permet la détection et le rechargement automatique des modifications apportées au code source.
 
 • thymeleaf extras spring security 6 : Il permet d'utiliser les fonctionnalités de sécurité de Spring Security dans les templates Thymeleaf.
+
+### Démonstration de L'application Web ###
+
+• L'interface D'authentification
+![login](https://user-images.githubusercontent.com/92445933/232563574-7f6bace6-5b8a-4af8-a0f1-2c12db324071.PNG)
+
+• Page D'accueil pour un utilisateur
+![Page_accueil_utilisateur](https://user-images.githubusercontent.com/92445933/232566160-a57b33c7-6a01-4d0d-bf1f-40fb2c9d13fc.PNG)
+
+• Pagination
+![Page_accueil_utilisateur(pagination)](https://user-images.githubusercontent.com/92445933/232568523-2acbd1ff-669e-4730-9ed9-afab27fd2a4a.PNG)
+
+• Recherche
+![Page_accueil_utilisateur(recherche)](https://user-images.githubusercontent.com/92445933/232569751-9fa1dc6f-a654-41f6-a977-33e865b58e6e.PNG)
+
+• Accès aux pages non autorisés
+![Acces_non_autorisés](https://user-images.githubusercontent.com/92445933/232603356-424dc00e-64dd-48b9-8bde-74ab4b055133.PNG)
+
+• Page D'accueil pour un admin
+![Page_accueil_admin](https://user-images.githubusercontent.com/92445933/232604153-2206bd69-1a31-4206-b49e-36a38b403306.PNG)
+
+• Modifier les informations d'un patient
+![Modifier_Patient](https://user-images.githubusercontent.com/92445933/232604577-01a5fce4-733e-45c5-9c6d-8b2cec6b7e09.PNG)
+
+• Suppression d'un patient
+![Suppression_Patient](https://user-images.githubusercontent.com/92445933/232604726-42d19487-43c3-4302-b4a3-7f2db537d371.PNG)
+
+• Patient supprimé
+![Patient_supprime](https://user-images.githubusercontent.com/92445933/232604838-cc1071dc-4281-4ef3-bef9-a22bd358aa38.PNG)
+
+• Ajouter un Patient(1/3)
+![Ajouter_Patient_1](https://user-images.githubusercontent.com/92445933/232604965-519276a4-f7d9-460f-9a3d-02b36bfc4104.PNG)
+• Ajouter un Patient(2/3)
+![Ajouter_Patient_2](https://user-images.githubusercontent.com/92445933/232605018-cbecaaf8-d562-44d5-b47f-0f2f15c3d74b.PNG)
+• Ajouter un Patient(3/3)
+![Ajouter_Patient_3](https://user-images.githubusercontent.com/92445933/232605098-340a475a-9941-4d15-a2ad-89b385ef6e6a.PNG)
+
