@@ -11,13 +11,14 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 import java.util.Date;
 
-@SpringBootApplication
+@SpringBootApplication // utilisée pour activer la configuration automatique de Spring Boot
 public class    HospitalAppApplication {
     public static void main(String[] args) {
         SpringApplication.run(HospitalAppApplication.class, args);
     }
 
-    @Bean
+    @Bean // Utilisée pour définir des méthodes de configuration qui produisent des instances de bean gérées par Spring
+    // Exécuté au démarrage
     CommandLineRunner start(PatientRepository patientRepository){
         return args -> {
             patientRepository.save(new Patient(null,"Mohamed",new Date(),false,42));

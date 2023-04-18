@@ -16,15 +16,16 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
-@Controller
+@Controller // Utilisée pour marquer une classe Java comme étant un contrôleur de requête
 public class PatientController {
-    @Autowired
+    @Autowired // Utilisée pour effectuer l'injection de dépendances automatique
     private PatientRepository patientRepository;
-    @GetMapping("/user/index")
+    @GetMapping("/user/index") // Utilisée pour mapper une méthode de contrôleur à une URL spécifique
     public String index(Model model,
                         @RequestParam(name = "page",defaultValue = "0") int page,
                         @RequestParam(name = "size",defaultValue = "5") int size,
                         @RequestParam(name = "keyword",defaultValue = "") String kw
+                        // Utilisée pour lier les paramètres d'une requête HTTP à des paramètres d'une méthode de contrôleur
                         ){
         Page<Patient> pagePatients = patientRepository.findByNomContains(kw, PageRequest.of(page,size));
         model.addAttribute("listPatients",pagePatients.getContent());
@@ -35,6 +36,8 @@ public class PatientController {
     }
     @GetMapping("/admin/deletePatient")
     @PreAuthorize("hasRole('ROLE_ADMIN')")
+    // Utilisée pour appliquer une autorisation préalable à une méthode de contrôleur.
+    // Elle indique que la méthode ne peut être appelée que par les utilisateurs ayant le rôle "ADMIN"
     public String deletePatient(@RequestParam(name = "id") Long id, String keyword, int page){
         patientRepository.deleteById(id);
         return "redirect:/user/index?page="+page+"&keyword="+keyword;
